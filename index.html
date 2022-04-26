@@ -6,467 +6,195 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="One of the best Portfolio in Lagos Nigeria"
+      content="Patricia is a front-end engineer based in Portugal."
     />
-    <title>Miyyah Portfolio - Miyyah.com</title>
+    <title>Front-end developer - Adebimpe Adefila</title>
+
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/677265b051.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:wght@500;700&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"><span>Miyyah</span> Codes</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <h4><span class="miyyah">MIYYAH</span>CODES</h4>
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Miyyah"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Miyyah's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Miyyah"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero">
+      <p>👋 Hello, I'm</p>
+      <h1>Adefila Adebimpe</h1>
+      <h2 class="mb-5">Front-end developer based in Nigeria</h2>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                About Me
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">My Journey</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">What My Clients Say</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">On-going Projects</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Contact Me</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="appbtn">Let's talk about your proect</a>
-            </li>
-          </ul>
+      </div>
+    </div>
+    <p class="text-center m-5">Check out some of my featured projects below</p>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="/basic.png"
+            class="img-fluid mt-5"
+            alt="Squid Game project preview"
+          />
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Squid Game Landing Page</h2>
+            <p class="mb-5 text-muted">
+              I entered the world of front-end development by gaining some
+              knowledge in HTML, CSS, and JavaScript. I used my knowledge of
+              these languages, along with my new skills in VS Code, to build a
+              landing page about the Squid Game movie. The page utilizes
+              JavaScript functions to create user interaction.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="row ms-0 me-0 intro pb-3">
-      <div class="col-sm-6 text-center main">
-        <p class="m-0">THIS IS ME</p>
-        <h1>ADEBIMPE ADEFILA</h1>
-        <p>Front-end Developer Based in Lagos,🇳🇬 Nigeria</p>
-        <a href="#" class="hire mt-3">HIRE ME</a>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Weather App</h2>
+            <p class="mb-5 text-muted">
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an
+              advanced 8-week JavaScript coding workshop. Building upon my
+              previously-gained knowledge, I also became skilled in Bootstrap,
+              API’s, real-life development workflow, hosting, and advanced
+              JavaScript. I combined all of these skills to create a
+              fully-functioning weather app.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="/plus.png"
+            class="img-fluid mt-5"
+            alt="Weather project preview"
+          />
+        </div>
       </div>
-      <div class="col-sm-6 mt-3">
-        <img
-          src="/portfolio-picture.jpg"
-          class="img-fluid rounded shadow-sm bg-secondary"
-          alt="illustration"
-        />
+      <div class="row">
+        <div class="col d-none d-lg-block">
+          <img
+            src="/portfolio-pic.png"
+            class="img-fluid mt-5"
+            alt="Dictionary app preview"
+            width="1000px"
+          />
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Calculator App</h2>
+            <p class="mb-5 text-muted">
+              I immersed myself in JavaScript development in SheCodes Plus. I
+              used my knowledge of this highly-demanded framework to build a
+              working Calculator app incorporating coding best practices, along
+              with the most popular tools and technologies.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-6 mt-5">
-        <img
-          src="port-picture.jpg"
-          class="img-fluid rounded shadow-sm bg-secondary"
-          alt="another-illustration"
-        />
-      </div>
-      <div class="col-sm-6 mt-5">
-        <p>ABOUT ME</p>
-        <h2>MY DETAILS</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-          explicabo minima molestiae veritatis magni, laborum architecto porro
-          recusandae iure! Quae ullam minima itaque culpa explicabo cupiditate
-          voluptatem praesentium tempore aut?
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Miyyah"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:adebimpeadefila64@gmail.com"
+            class="email-link"
+            title="Email Miyyah"
+          >
+            adebimpeadefila64@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/MiyyahCodes"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/p/CFRqi8ahEzE/"
+            target="_blank"
+            title="instragram Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.twitter.com/Miyyah_codes"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Adefila Adebimpe, and is
+          <a href="https://github.com/MiyyahCodes/My-portfolio" target="_blank">
+            open-sourced
+          </a>
         </p>
-        <a href="#" class="hire mt-3">More About Me</a>
-      </div>
+      </footer>
     </div>
-    <div class="container-fluid">
-      <h2 class="text-center">Services I Offer</h2>
-      <p class="text-center">
-        I offer a wide range of servies to give the best produts to my clients
-        with full responsibilities and time management.
-      </p>
-      <div class="row ms-5">
-        <div class="col-sm-4 text-center">
-          <div class="card border-info mb-3" style="max-width: 18rem">
-            <div class="card-header">
-              <i class="fa-solid fa-laptop-code"></i>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">WEB DEVELOPMENT</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 text-center">
-          <div class="card border-info mb-3" style="max-width: 18rem">
-            <div class="card-header">
-              <i class="fa-solid fa-palette"></i>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">GRAPHIC DESIGN</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 text-center">
-          <div class="card border-info mb-3" style="max-width: 18rem">
-            <div class="card-header">
-              <i class="fa-solid fa-clone"></i>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">WEB DESIGN</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row details mt-4">
-        <div class="col-sm-3 text-center">
-          <h3>Projects Completed</h3>
-          <p>256</p>
-        </div>
-        <div class="col-sm-3 text-center">
-          <h3>Happy Clients</h3>
-          <p>199</p>
-        </div>
-        <div class="col-sm-3 text-center">
-          <h3>On-going Projects</h3>
-          <p>12</p>
-        </div>
-        <div class="col-sm-3 text-center">
-          <h3>Real-life Projects</h3>
-          <p>56</p>
-        </div>
-      </div>
-    </div>
-    <div class="mt-5">
-      <h3 class="text-center">Explore Our Latest Projects</h3>
-      <p class="text-center">We deliver the best of quality projects</p>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <img
-              src="/basic.png"
-              class="img-fluid mt-5 rounded shadow-sm bg-secondary d-none d-sm-block"
-              alt="basic"
-            />
-          </div>
-          <div class="col-sm-6 apps">
-            <h2 class="mb-3 mt-5">Squid Game Landing Page</h2>
-            <p class="fs-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
-            </p>
-            <div class="mt-5">
-              <a
-                href="https://www.shecodes.io/workshops/shecodes-basics-2b03370a-9fb3-4c92-b95e-f247db4177c8/projects/648727"
-                class="primary-link project-link"
-                title="Launch"
-                >Launch Landing Page</a
-              >
-            </div>
-          </div>
-          <div class="col-sm-6 apps">
-            <h2 class="mb-3 mt-5">Weather App</h2>
-            <p class="fs-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
-            </p>
-            <div class="mt-5">
-              <a
-                href="https://www.shecodes.io/workshops/shecodes-plus-0656b233-92a1-4a4d-a470-2b6818f3087b/projects/752237"
-                class="primary-link project-link"
-                title="Launch"
-                >Launch Weather App</a
-              >
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <img
-              src="/plus.png"
-              class="img-fluid mt-5 rounded shadow-sm bg-secondary d-none d-sm-block"
-              alt="plus"
-            />
-          </div>
-          <div class="col-sm-6">
-            <img
-              src="/portfolio-pic.png"
-              class="img-fluid mt-5 rounded shadow-sm bg-secondary d-none d-sm-block"
-              alt="calculator"
-            />
-          </div>
-          <div class="col-sm-6 apps">
-            <h2 class="mb-3 mt-5">Calculator App</h2>
-            <p class="fs-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
-            </p>
-            <div class="mt-5">
-              <a
-                href="https://myjavascript-calculator.netlify.app/"
-                class="primary-link project-link"
-                title="Launch"
-                >Launch Calculator App</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Carousel wrapper -->
-    <div
-      id="carouselExampleControls"
-      class="carousel slide text-center carousel-dark mt-5"
-      data-mdb-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            class="rounded-circle shadow-1-strong mb-4"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
-            alt="avatar"
-            style="width: 150px"
-          />
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-8">
-              <h5 class="mb-3">Maria Kate</h5>
-              <p>Photographer</p>
-              <p class="text-muted">
-                <i class="fas fa-quote-left pe-2"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                et deleniti nesciunt sint eligendi reprehenderit reiciendis,
-                quibusdam illo, beatae quia fugit consequatur laudantium velit
-                magnam error. Consectetur distinctio fugit doloremque.
-              </p>
-            </div>
-          </div>
-          <ul
-            class="list-unstyled d-flex justify-content-center text-warning mb-0"
-          >
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="far fa-star fa-sm"></i></li>
-          </ul>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="rounded-circle shadow-1-strong mb-4"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
-            alt="avatar"
-            style="width: 150px"
-          />
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-8">
-              <h5 class="mb-3">John Doe</h5>
-              <p>Web Developer</p>
-              <p class="text-muted">
-                <i class="fas fa-quote-left pe-2"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                et deleniti nesciunt sint eligendi reprehenderit reiciendis.
-              </p>
-            </div>
-          </div>
-          <ul
-            class="list-unstyled d-flex justify-content-center text-warning mb-0"
-          >
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="far fa-star fa-sm"></i></li>
-          </ul>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="rounded-circle shadow-1-strong mb-4"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-            alt="avatar"
-            style="width: 150px"
-          />
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-8">
-              <h5 class="mb-3">Anna Deynah</h5>
-              <p>UX Designer</p>
-              <p class="text-muted">
-                <i class="fas fa-quote-left pe-2"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                et deleniti nesciunt sint eligendi reprehenderit reiciendis,
-                quibusdam illo, beatae quia fugit consequatur laudantium velit
-                magnam error. Consectetur distinctio fugit doloremque.
-              </p>
-            </div>
-          </div>
-          <ul
-            class="list-unstyled d-flex justify-content-center text-warning mb-0"
-          >
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="fas fa-star fa-sm"></i></li>
-            <li><i class="far fa-star fa-sm"></i></li>
-          </ul>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-mdb-target="#carouselExampleControls"
-        data-mdb-slide="prev"
-        onclick="prev()"
-        id="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        id="next"
-        class="carousel-control-next"
-        type="button"
-        data-mdb-target="#carouselExampleControls"
-        data-mdb-slide="next"
-        onclick="next()"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- Carousel wrapper -->
-    <footer id="footer" class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
-            <p class="text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              quia temporibus, quaerat molestiae, assumenda saepe, ipsam
-              mollitia ex voluptate sint numquam eligendi! Omnis doloribus sint
-              consectetur eius reiciendis amet repellat. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Esse placeat suscipit
-              obcaecati. Eligendi harum est alias minus velit?
-            </p>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>ADDRESS</h6>
-            <ul class="footer-links">
-              <li><i class="fa-solid fa-location-dot"></i> Lagos Nigeria</li>
-              <li>
-                <i class="fa-solid fa-envelope"></i> adebimpeadefila64@gmail.com
-              </li>
-              <li><i class="fa-solid fa-phone"></i> +234 8088636134</li>
-              <li><i class="fa-brands fa-instagram"></i> miyyahCodes</li>
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>CONTACT US</h6>
-            <ul class="footer-links">
-              <li>
-                <form>
-                  <div class="text">Email *</div>
-                  <input type="email" required />
-                </form>
-              </li>
-              <li>
-                <div class="text">Message *</div>
-                <textarea cols="25" rows="2" required></textarea>
-              </li>
-              <li>
-                <button class="send" type="submit">Send</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">
-              Copyright &copy; 2022 All Rights Reserved by
-              <a href="#">MIYYAH CODES</a>.
-            </p>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li>
-                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li>
-                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li>
-                <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
-              </li>
-              <li>
-                <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script src="app.js"></script>
   </body>
 </html>
